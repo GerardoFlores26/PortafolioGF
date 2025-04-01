@@ -1,6 +1,6 @@
 function runTypingEffect() {
-  const text = 'I am Brad Traversy.';
-  const typingElement = document.getElementById('typing-text');
+  const text = "Gerardo Flores Tobias";
+  const typingElement = document.getElementById("typing-text");
   const typingDelay = 100;
 
   typeText(text, typingElement, typingDelay);
@@ -14,4 +14,4 @@ function typeText(text, typingElement, delay) {
   }
 }
 
-document.addEventListener('DOMContentLoaded', runTypingEffect);
+document.addEventListener("DOMContentLoaded", runTypingEffect);
